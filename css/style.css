@@ -1,0 +1,85 @@
+* textarea {
+  resize: none;
+}
+.panel {
+  border-radius: 15px;
+  box-shadow: 0 0 1px 1px #ccc;
+  border: none;
+}
+.panel .panel-heading {
+  background: #a8ebf8;
+  border-radius: 15px 15px 0 0;
+  color: #fff;
+  text-shadow: 1px 1px #ccc;
+  font-weight: bold;
+}
+header .navbar {
+  background: #a8ebf8;
+}
+header .navbar .navbar-brand {
+  color: #fff;
+  text-shadow: 2px 2px #ddd;
+  font-size: 24px;
+  font-family: "微软雅黑";
+}
+@media (max-width: 767px) {
+  header .navbar .navbar-right {
+    position: absolute;
+    top: 0;
+    right: 10px;
+  }
+}
+footer {
+  border-top: 1px solid #ccc;
+  background: #a8ebf8;
+}
+footer p {
+  font-size: 16px;
+  padding: 20px 0;
+  margin: 0;
+}
+#main {
+  height: 815px;
+}
+#main .chatWindow {
+  height: 550px;
+}
+#main .chatWindow .message {
+  display: flex;
+  padding: 5px;
+  margin: 10px 0;
+}
+#main .chatWindow .message:nth-child(odd) {
+  flex-direction: row;
+}
+#main .chatWindow .message:nth-child(even) {
+  flex-direction: row-reverse;
+}
+#main .chatWindow .message .messageUserLogo img {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+#main .chatWindow .message .messageText {
+  padding: 20px 5px;
+  border-radius: 15px;
+  margin: 0 10px;
+}
+#main .chatWindow .panel-body {
+  border-radius: 0 0 15px 15px;
+  height: 510px;
+  overflow-y: overlay;
+}
+#main .inputWindow {
+  margin-top: 20px;
+  height: 210px;
+  padding: 20px;
+}
+#main .inputWindow textarea {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 10px;
+}
+#main .onlineUser {
+  height: 780px;
+}
