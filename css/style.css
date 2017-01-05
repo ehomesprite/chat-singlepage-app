@@ -48,12 +48,13 @@ footer p {
   display: flex;
   padding: 5px;
   margin: 10px 0;
-}
-#main .chatWindow .message:nth-child(odd) {
   flex-direction: row;
 }
-#main .chatWindow .message:nth-child(even) {
+#main .chatWindow .message.myMessage {
   flex-direction: row-reverse;
+}
+#main .chatWindow .message.myMessage .messageText {
+  background: #48ceff;
 }
 #main .chatWindow .message .messageUserLogo img {
   display: block;
