@@ -10,7 +10,20 @@ var mainVm = new Vue({
 	}
 });
 
-var socket = io('http://45.76.149.222:3000/');
+var socket = io(setting.socketUrl);
 socket.on('chat message', function(msg){
 	mainVm.msg.push(msg);
 });
+
+var headerVm = new Vue({
+	el: "header",
+	data:{
+
+	},
+	methods:{
+		loginCallout:function(){
+
+		}
+	}
+});
+

@@ -1,6 +1,12 @@
 * textarea {
   resize: none;
 }
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
 .panel {
   border-radius: 15px;
   box-shadow: 0 0 1px 1px #ccc;
@@ -68,9 +74,10 @@ footer p {
 }
 #main .chatWindow .panel-body {
   border-radius: 0 0 15px 15px;
-  height: 510px;
-  overflow-y: overlay;
-  -moz-overflow-y: scroll;
+  height: 500px;
+}
+#main .chatWindow .panel-body .wrap {
+  height: auto;
 }
 #main .inputWindow {
   margin-top: 20px;

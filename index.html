@@ -4,12 +4,13 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>bootstrap template</title>
+	<title>snowchat</title>
 	
 	<!--CSS-->
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/>
 	<!--<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.css"/>-->
 	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css" />
+	<link rel="stylesheet" href="lib/custom scroll/jquery.mCustomScrollbar.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	
 	<!--JAVASCRIPT-->
@@ -36,8 +37,8 @@
 				</div>
 				
 				<div class="nav navbar-right">
-					<button class="btn navbar-btn btn-primary"> login </button>
-					<button class="btn navbar-btn btn-default">sign in</button>
+					<button class="btn navbar-btn btn-primary" data-toggle="modal" data-target="#loginModal" @click="loginCallout"> login </button>
+					<button class="btn navbar-btn btn-default" data-toggle="modal" data-target="#signinModal">sign in</button>
 				</div>
 				
 			</div>
@@ -55,13 +56,15 @@
 						<div class="panel-heading">
 							聊天窗口
 						</div>
-						<div class="panel-body">
-							<div class="message" v-for="obj in msg">
-								<div class="messageUserLogo">
-									<img src="" alt="logo" />
-								</div>
-								<div class="messageText bg-primary">
-									{{obj}}
+						<div class="panel-body box">
+							<div class="wrap">
+								<div class="message" v-for="obj in msg">
+									<div class="messageUserLogo">
+										<img src="" alt="logo" />
+									</div>
+									<div class="messageText bg-primary">
+										{{obj}}
+									</div>
 								</div>
 							</div>
 						</div>
@@ -89,12 +92,56 @@
 	<!--footer-->
 	<footer>
 		<div class="container">
-			<p class="text-center"> SinglePageChatApp with boostrap & vue.  Copyright &copy; 2017 by ehomesprite(snowdrop) & Lidy. All Rights Reserved. </p>
+			<p class="text-center"> snowchat with boostrap & vue.  Copyright &copy; 2017 by ehomesprite(snowdrop) & Lidy. All Rights Reserved. </p>
 		</div>
 	</footer>
 
+	<!--modal-->
+	
+		<!--loginModal-->
+		<div class="modal fade" id="loginModal" data-backdrop="static" role="dialog" aria-labelledby="loginModal-title" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="loginModal-title">登陆</h4>
+					</div>
+					<div class="modal-body">
+						
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-primary">登陆</button>
+						<button class="btn btn-default" data-dismiss="modal">取消</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--signinModal-->
+		<div class="modal fade" id="signinModal" data-backdrop="static" role="dialog" aria-labelledby="signinModal-title" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="signinModal-title">注册</h4>
+					</div>
+					<div class="modal-body"></div>
+					<div class="modal-footer">
+						<button class="btn btn-primary">注册</button>
+						<button class="btn btn-default" data-dismiss="modal">取消</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 <!--My js-->
+<script src="lib/custom scroll/jquery.mCustomScrollbar.js"></script>
+<script type="text/javascript" src="js/setting.js" ></script>
 <script type="text/javascript" src="js/main.js" ></script>
+<script>
+	$(".box").mCustomScrollbar({
+		theme:'dark',
+	});
+</script>
 </body>
 </html>

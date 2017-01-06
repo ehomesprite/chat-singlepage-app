@@ -2,6 +2,13 @@
    textarea{
        resize: none;
    }
+    &::-webkit-scrollbar{
+        width:5px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background: #ccc;
+    }
+    //火狐活该吧  我是没辙了(
 }
 
 body{
@@ -83,9 +90,11 @@ footer{
         }
         .panel-body{
             border-radius: 0 0 15px 15px;
-            height: 510px;
-            overflow-y: overlay;
-            -moz-overflow-y:scroll;
+            height: 500px;
+            //overflow-y:auto;
+            .wrap{
+                height: auto;
+            }
         }
     }
     .inputWindow{
