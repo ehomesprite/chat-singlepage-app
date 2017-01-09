@@ -11,6 +11,10 @@
     //火狐活该吧  我是没辙了(
 }
 
+[v-cloak]{
+    display: none!important;
+}
+
 body{
 
 }
@@ -40,13 +44,19 @@ header{
             font-size: 24px;
             font-family: "微软雅黑";
         }
+        .navbar-right{
+            line-height: 50px;
+            font-size: 20px;
+            text-shadow: 1px 1px #ccc;
+            color: #fff;
+        }
         @media(max-width:767px){
             .navbar-right{
                 position: absolute;
                 top: 0;
                 right: 10px;
             }
-        } 
+        }
     }
 }
 
@@ -109,5 +119,31 @@ footer{
     }
     .onlineUser{
         height: 780px;
+    }
+}
+
+#loginPage{
+    background: #ccc;
+    .wrap{
+        overflow: hidden;
+        margin:100px auto;
+        background: #fff;
+        width: 1000px;
+        height: 600px;
+        h2{
+            text-indent: 40px;
+        }
+        form{
+            margin:100px 0;
+        }
+        .form-group{
+            margin:30px 0;
+        }
+        img{
+            width: 100%;
+        }
+        .col-md-6:nth-child(2){
+            padding: 0;
+        }
     }
 }

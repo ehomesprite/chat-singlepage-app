@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>ajichat-login</title>
+
+		<!--CSS-->
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+		<!--<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.css"/>-->
+		<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!--[if lte IE 9]>
+      <script src="lib/bootstrap/js/html5shiv.min.js"></script>
+      <script src="lib/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body id="loginPage">
+		<div class="wrap container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row">
+						<h2>登录</h2>
+					<div class="alert alert-danger" style="display:none"></div>
+					<div class="alert alert-success" style="display:none"></div>
+					<form class="form-horizontal" method="post" action="/users/login">
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="username">用户名:</label>
+							<div class="col-sm-10"><input class="form-control" id="username" type="username" name="username" placeholder="输入用户名" value="" /></div>
+						</div>
+						<div class="form-group"><label class="control-label col-sm-2" for="password">密码:</label>
+							<div class="col-sm-10"><input class="form-control" id="password" type="password" name="password" placeholder="输入密码" /></div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<div class="checkbox"><label><input id="remember" type="checkbox" name="remember"/></label>Remember me</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10"><button class="btn btn-primary" id="submit" type="submit">Submit</button></div>
+						</div>
+					</form>
+					</div>
+					
+				</div>
+				<div class="col-md-6">
+					<img src="img/IMG_0251.JPG" alt=""/>
+				</div>
+			</div>
+
+		</div>
+	</body>
+
+</html>

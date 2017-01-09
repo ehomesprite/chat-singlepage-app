@@ -7,6 +7,9 @@
 *::-webkit-scrollbar-thumb {
   background: #ccc;
 }
+[v-cloak] {
+  display: none!important;
+}
 .panel {
   border-radius: 15px;
   box-shadow: 0 0 1px 1px #ccc;
@@ -27,6 +30,12 @@ header .navbar .navbar-brand {
   text-shadow: 2px 2px #ddd;
   font-size: 24px;
   font-family: "微软雅黑";
+}
+header .navbar .navbar-right {
+  line-height: 50px;
+  font-size: 20px;
+  text-shadow: 1px 1px #ccc;
+  color: #fff;
 }
 @media (max-width: 767px) {
   header .navbar .navbar-right {
@@ -91,4 +100,29 @@ footer p {
 }
 #main .onlineUser {
   height: 780px;
+}
+#loginPage {
+  background: #ccc;
+}
+#loginPage .wrap {
+  overflow: hidden;
+  margin: 100px auto;
+  background: #fff;
+  width: 1000px;
+  height: 600px;
+}
+#loginPage .wrap h2 {
+  text-indent: 40px;
+}
+#loginPage .wrap form {
+  margin: 100px 0;
+}
+#loginPage .wrap .form-group {
+  margin: 30px 0;
+}
+#loginPage .wrap img {
+  width: 100%;
+}
+#loginPage .wrap .col-md-6:nth-child(2) {
+  padding: 0;
 }

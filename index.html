@@ -4,7 +4,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>snowchat</title>
+	<title>ajichat</title>
 	
 	<!--CSS-->
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/>
@@ -37,8 +37,7 @@
 				</div>
 				
 				<div class="nav navbar-right">
-					<button class="btn navbar-btn btn-primary" data-toggle="modal" data-target="#loginModal" @click="loginCallout"> login </button>
-					<button class="btn navbar-btn btn-default" data-toggle="modal" data-target="#signinModal">sign in</button>
+					hello xxxx
 				</div>
 				
 			</div>
@@ -58,7 +57,7 @@
 						</div>
 						<div class="panel-body box">
 							<div class="wrap">
-								<div class="message" v-for="obj in msg">
+								<div class="message" v-for="obj in msg" v-cloak>
 									<div class="messageUserLogo">
 										<img src="" alt="logo" />
 									</div>
