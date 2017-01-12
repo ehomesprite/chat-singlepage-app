@@ -61,8 +61,9 @@ footer p {
 }
 #main .chatWindow .message {
   display: flex;
+  position: relative;
   padding: 5px;
-  margin: 10px 0;
+  margin: 30px 0;
   flex-direction: row;
 }
 #main .chatWindow .message.myMessage {
@@ -70,6 +71,9 @@ footer p {
 }
 #main .chatWindow .message.myMessage .messageText {
   background: #48ceff;
+}
+#main .chatWindow .message.myMessage .messageUserID {
+  text-align: right;
 }
 #main .chatWindow .message .messageUserLogo img {
   display: block;
@@ -80,6 +84,14 @@ footer p {
   padding: 20px 5px;
   border-radius: 15px;
   margin: 0 10px;
+}
+#main .chatWindow .message .messageUserID {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  padding: 3px 20px;
+  font-size: 16px;
 }
 #main .chatWindow .panel-body {
   border-radius: 0 0 15px 15px;

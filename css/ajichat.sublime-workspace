@@ -1,0 +1,928 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"messa",
+				"messageUserLogo"
+			],
+			[
+				"ajax",
+				"ajaxComplete\tjQuery"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"ke",
+				"@keyframes"
+			],
+			[
+				"me",
+				"messageText"
+			],
+			[
+				"ovy-",
+				"ovy-a\toverflow-y: auto;"
+			],
+			[
+				"che",
+				"checkCode"
+			],
+			[
+				"Access-Co",
+				"Access-Control"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"_RE",
+				"_REQUEST"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"ser",
+				"service"
+			],
+			[
+				"conn",
+				"connect"
+			],
+			[
+				"Access-Control-Allow-Or",
+				"Access-Control-Allow-Origin"
+			],
+			[
+				"Access-Control-All",
+				"Access-Control-Allow"
+			],
+			[
+				"Access-C",
+				"Access-Control"
+			],
+			[
+				"Con",
+				"Content"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"a",
+				"array\t$… = array (…)"
+			],
+			[
+				"class",
+				"class\tclass …"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"local",
+				"localhost"
+			],
+			[
+				"set",
+				"setcookie"
+			],
+			[
+				"dat",
+				"database"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"print",
+				"print_r\tPHP"
+			],
+			[
+				"var",
+				"var_export\tPHP"
+			],
+			[
+				"pri",
+				"print\tPHPString"
+			],
+			[
+				"prin",
+				"print_r\tPHP"
+			],
+			[
+				"header",
+				"get_headers"
+			],
+			[
+				"Access-Control-Allow-O",
+				"Access-Control-Allow-Origin"
+			],
+			[
+				"Access-Control-A",
+				"Access-Control-Allow"
+			],
+			[
+				"parse",
+				"parseJSON\tjQuery"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"pr",
+				"printf\tPHPString"
+			],
+			[
+				"rep",
+				"replace()\tangular.js"
+			],
+			[
+				"newo",
+				"new Object( value?: any ): Object\tObject"
+			],
+			[
+				"tos",
+				"toString(): string\tArray"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"word-",
+				"word-break: normal;\tProperty"
+			],
+			[
+				"wrap",
+				"word-wrap"
+			],
+			[
+				"e",
+				"eq\tjQuery"
+			],
+			[
+				"tolo",
+				"toLocaleDateString\tjsDate"
+			],
+			[
+				"cmt",
+				"cmtHeight\tanimate.js"
+			],
+			[
+				"slide",
+				"slideUp\tjQuery"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"legal",
+				"legalLength>200"
+			],
+			[
+				"re",
+				"resize"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"tolocal",
+				"toLocaleTimeString\tjsDate"
+			],
+			[
+				"localDa",
+				"toLocaleDateString(): string\tDate"
+			],
+			[
+				"settime",
+				"setTimeout\tjsWindow"
+			],
+			[
+				"dis",
+				"disabled"
+			],
+			[
+				"auto",
+				"auto"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"flex-s",
+				"flex-start"
+			],
+			[
+				"hover",
+				"hover"
+			],
+			[
+				"last",
+				"last-of-type"
+			],
+			[
+				"c",
+				"c\tcolor: #${1:000};"
+			],
+			[
+				"jc",
+				"jc-fs\tjustify-content: flex-start;"
+			],
+			[
+				"media",
+				"@media"
+			],
+			[
+				"borderW",
+				"borderWidth\tStyle CSS"
+			],
+			[
+				"borderS",
+				"borderStyle\tStyle CSS"
+			],
+			[
+				"borderC",
+				"borderColor\tStyle CSS"
+			],
+			[
+				"text-ov",
+				"text-overflow: $1;\tProperty"
+			],
+			[
+				"white",
+				"white-space: nowrap;\tProperty"
+			],
+			[
+				"key",
+				"keypress\tjQuery"
+			],
+			[
+				"fadet",
+				"fadeToggle\tjQuery"
+			],
+			[
+				"to",
+				"toggle\tjQueryDeprecated"
+			],
+			[
+				"scri",
+				"script\tTag"
+			],
+			[
+				"classN",
+				"className: DOMString\tElement"
+			],
+			[
+				"clear",
+				"clear(): void\tStorage"
+			],
+			[
+				"storage",
+				"localStorage\tjsProp"
+			],
+			[
+				"gete",
+				"getElementById\tjsDOM"
+			],
+			[
+				"ondrage",
+				"ondragenter\tAttr"
+			],
+			[
+				"bdds",
+				"bds-ds\tborder-style: dashed;"
+			],
+			[
+				"add",
+				"add()\tjquery-3.1.1.js"
+			],
+			[
+				"insert",
+				"insertBefore\tjQuery"
+			],
+			[
+				"ap",
+				"appendTo\tjQuery"
+			],
+			[
+				"em",
+				"empty\tjQuery"
+			],
+			[
+				"contains",
+				"contains( context, elem )\tjquery-3.1.1.js"
+			],
+			[
+				"eq",
+				"eq( i )\tjquery-3.1.1.js"
+			],
+			[
+				"ID",
+				"ID_code"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"html",
+				"html( value )\tjquery-3.1.1.js"
+			],
+			[
+				"goal",
+				"goalLeft"
+			],
+			[
+				"tI",
+				"timerI"
+			],
+			[
+				"setT",
+				"setTimeout\tjsWindow"
+			],
+			[
+				"else",
+				"else if()"
+			],
+			[
+				"getEle",
+				"getElementsByTagName\tjsDOM"
+			],
+			[
+				"ran",
+				"ranColor"
+			],
+			[
+				"fontF",
+				"fontFamily\tStyle CSS"
+			],
+			[
+				"font",
+				"fontsize\tjsHtml"
+			],
+			[
+				"getc",
+				"getComputedStyle( elt: Element, pseudoElt?: DOMString ): CSSStyleDeclaration\tWindow"
+			],
+			[
+				"cur",
+				"currentStyle"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"bac",
+				"background\tStyle CSS"
+			],
+			[
+				"ID_sub",
+				"ID_subNav.className"
+			],
+			[
+				"bsz",
+				"box-sizing"
+			],
+			[
+				"nav",
+				"nav-li"
+			],
+			[
+				"docum",
+				"document\tjsWindow"
+			],
+			[
+				"appendc",
+				"appendChild( node: Node ): Node\tNode"
+			],
+			[
+				"text",
+				"TEXT_NODE: const unsigned short\tNode"
+			],
+			[
+				"textn",
+				"textContent\tjsDOM"
+			],
+			[
+				"setPrototypeOF",
+				"description-Object.getPrototypeOf\tObject"
+			],
+			[
+				"pro",
+				"prototype\tjsProp"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"va",
+				"value\tjsDOM"
+			],
+			[
+				"reset",
+				"resetButton"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"bod",
+				"body: HTMLElement\tDocument"
+			],
+			[
+				"docu",
+				"document\tjsWindow"
+			],
+			[
+				"chara",
+				"charAt( pos: int ): string\tString"
+			],
+			[
+				"reg",
+				"regexp1"
+			],
+			[
+				"inde",
+				"indexOf\tjsArray"
+			],
+			[
+				"math",
+				"Math.random(): number\tMath"
+			],
+			[
+				"subs",
+				"substring\tjsString"
+			],
+			[
+				"oc",
+				"octet-stream"
+			],
+			[
+				"func",
+				"function\tjsProp"
+			],
+			[
+				"scr",
+				"script\tTag"
+			],
+			[
+				"ja",
+				"javascript:void"
+			],
+			[
+				"list-",
+				"list-style: $1;\tProperty"
+			],
+			[
+				"nth",
+				"nth-child()"
+			],
+			[
+				"whit",
+				"white-space"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"wra",
+				"flex-wrap;\tProperty"
+			],
+			[
+				"just",
+				"justify-content"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 185.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control:ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: add",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: e",
+				"Package Control: Enable Package"
+			],
+			[
+				"package control:",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript (Rails)"
+			]
+		],
+		"width": 587.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"git clone https://github.com/andruhon/SublimeAllAutocomplete",
+			"stop",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app"
+	],
+	"file_history":
+	[
+		"/F/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app/css/style.less",
+		"/F/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app/js/setting.js",
+		"/F/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app/js/main.js",
+		"/C/Users/snowdrop/AppData/Roaming/Sublime Text 3/Packages/User/sbc-setting.sublime-settings",
+		"/T/SAO Utils/Docs/manual/zh_CN/index.html",
+		"/F/snowdrop/桌面/mysql-workbench-community-6.3.8-src/INSTALL",
+		"/F/snowdrop/桌面/mysql-workbench-community-6.3.8-src/README",
+		"/D/！资料/前端/php/project04/connect.php",
+		"/D/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app/css/style.less",
+		"/D/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app/js/main.js",
+		"/D/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app/js/setting.js",
+		"/D/！资料/前端/框架&库/JQuery/malihu-custom-scrollbar-plugin-master/examples/ajax_example.html",
+		"/D/！资料/前端/框架&库/JQuery/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css",
+		"/C/Users/ehome/AppData/Roaming/Sublime Text 3/Packages/User/sbc-setting.sublime-settings",
+		"/C/Users/ehome/AppData/Roaming/Sublime Text 3/Packages/Better Completion/sbc-setting.sublime-settings",
+		"/C/Users/ehome/AppData/Roaming/Sublime Text 3/Packages/User/MySignaturePlugin.sublime-settings",
+		"/D/！资料/前端/personal project/chat singlePage app (b&v)/css/style.less",
+		"/D/！资料/前端/personal project/chat singlePage app (b&v)/css/style.css",
+		"/D/！资料/前端/框架&库/vue/vue.js",
+		"/T/shadowsocks/gui-config.json",
+		"/T/XAMPP/htdocs/myHtml/php/test/php/tianjia.php",
+		"/T/XAMPP/htdocs/myHtml/php/test/php/shanchu.php",
+		"/T/XAMPP/htdocs/myHtml/php/test/php/jiazai.php",
+		"/T/XAMPP/htdocs/myHtml/php/test/php/xiugai.php",
+		"/T/XAMPP/htdocs/myHtml/php/test/php/lianjie.php",
+		"/T/XAMPP/htdocs/myHtml/php/张子豪-3阶段测试-51班-交互/php/jiazai.php",
+		"/T/XAMPP/htdocs/myHtml/php/张子豪-3阶段测试-51班-交互/php/xiugai.php",
+		"/T/XAMPP/htdocs/myHtml/php/张子豪-3阶段测试-51班-交互/php/shanchu.php",
+		"/T/XAMPP/htdocs/myHtml/php/张子豪-3阶段测试-51班-交互/php/tianjia.php",
+		"/T/XAMPP/htdocs/myHtml/php/project04/connect.php",
+		"/T/XAMPP/htdocs/myHtml/php/张子豪-3阶段测试-51班-交互/php/lianjie.php",
+		"/D/桌面/张子豪-3阶段测试-51班-交互/51/php/jiazai.php",
+		"/D/桌面/张子豪-3阶段测试-51班-交互/51/php/xiugai.php",
+		"/D/桌面/张子豪-3阶段测试-51班-交互/51/.idea/workspace.xml",
+		"/D/桌面/test/css/index.less",
+		"/D/作业/前端学习/框架&库/bootstrap-3.3.7/template/index.html",
+		"/D/作业/前端学习/框架&库/react/react-15.4.1/examples/basic/index.html",
+		"/T/XAMPP/htdocs/myHtml/php/project04/login.php",
+		"/T/XAMPP/htdocs/myHtml/php/project04/student.php",
+		"/T/XAMPP/htdocs/myHtml/php/project04/vcode.php",
+		"/T/XAMPP/htdocs/myHtml/php/project04/myvcode.class.php",
+		"/T/XAMPP/htdocs/myHtml/php/project01/user.php",
+		"/D/作业/前端学习/框架&库/JQuery/jquery.mobile-1.4.5/jquery_low.min.js",
+		"/D/作业/前端学习/框架&库/AngularJS/angular-1.6.0-rc.2/ng-load.js",
+		"/T/XAMPP/htdocs/myHtml/php/project00/gallery.php",
+		"/T/XAMPP/htdocs/myHtml/php/project00/intro.php",
+		"/T/XAMPP/htdocs/myHtml/php/project00/connect.php",
+		"/T/XAMPP/htdocs/myHtml/php/project00/team.php",
+		"/T/XAMPP/htdocs/myHtml/php/project00/about.php",
+		"/T/XAMPP/htdocs/myHtml/php/project01/message.php",
+		"/T/XAMPP/htdocs/myHtml/php/project01/connect.php",
+		"/D/桌面/cpts_185_eu/scripts/jquery.swipebox.js",
+		"/D/作业/前端学习/框架&库/zepto/zepto.js",
+		"/D/桌面/zepto/src/touch.js",
+		"/D/桌面/zepto.js",
+		"/D/作业/前端学习/插件/bootstrap3-wysiwyg-0.3.3/dist/bootstrap3-wysihtml5.all.js",
+		"/D/桌面/bootstrap3-wysiwyg-0.3.3/dist/templates.js",
+		"/D/桌面/GitHub.appref-ms",
+		"/D/桌面/cpts_3_dx/index.html",
+		"/C/Users/ehomesprite/AppData/Roaming/Sublime Text 3/Packages/User/Evaluate-JavaScript.sublime-settings",
+		"/C/Users/ehomesprite/AppData/Roaming/Sublime Text 3/Packages/MySignaturePlugin/MySignaturePlugin.sublime-settings",
+		"/C/Users/ehomesprite/AppData/Roaming/Sublime Text 3/Packages/JavaScript Completions/javascript_completions/JavaScript-Completions.sublime-settings",
+		"/C/Users/ehomesprite/AppData/Roaming/Sublime Text 3/Packages/User/sbc-setting.sublime-settings",
+		"/C/Users/ehomesprite/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript-Completions.sublime-settings",
+		"/C/Users/ehomesprite/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/T/XAMPP/htdocs/myHtml/php/1.html",
+		"/T/XAMPP/htdocs/myHtml/php/1.php",
+		"/T/XAMPP/htdocs/myHtml/php/project00/gallery-connect.php",
+		"/D/作业/前端学习/hw&lesson/项目/project00-大国重器/php/data.php",
+		"/T/XAMPP/htdocs/myHtml/php/hw01/gallery.php",
+		"/D/桌面/20161206/eg2.php",
+		"/D/桌面/20161206/eg1.php",
+		"/T/XAMPP/htdocs/myHtml/php/05-login-history/database.php",
+		"/T/bitnami/htdocs/myHtml/php/1.php",
+		"/T/bitnami/htdocs/myHtml/php/05-login-history/login.php",
+		"/T/bitnami/htdocs/myHtml/php/hw01/gallery.php",
+		"/T/bitnami/htdocs/myHtml/php/1.html",
+		"/C/Users/ehomesprite/AppData/Roaming/Sublime Text 3/Packages/Better Completion/sbc-setting.sublime-settings",
+		"/D/桌面/20161202/eg3.html",
+		"/D/桌面/20161202/eg1.html",
+		"/D/桌面/20161202/eg7.php",
+		"/D/桌面/20161202/eg6.php",
+		"/D/桌面/20161202/eg7.html",
+		"/D/桌面/20161202/eg4.html",
+		"/D/桌面/20161202/eg2.html",
+		"/D/桌面/20161202/eg8.js",
+		"/D/桌面/20161202/eg8.html",
+		"/D/桌面/20161202/eg6.html",
+		"/D/桌面/20161202/eg5.html",
+		"/D/桌面/20161202/xm/js/page.js",
+		"/D/桌面/20161202/xm/page3.html",
+		"/D/桌面/20161202/xm/page2.html",
+		"/D/桌面/20161202/xm/page1.html",
+		"/D/桌面/20161202/xm/index.html",
+		"/D/桌面/20161202/xm/table.html",
+		"/D/作业/php/1.php",
+		"/D/作业/php/1.html",
+		"/D/桌面/1.php",
+		"/D/桌面/cpts_486_tl/index.html",
+		"/D/桌面/cpts_486_tl/css/style.css",
+		"/D/桌面/cpts_486_tl/css/chocolat.css",
+		"/D/桌面/cpts_486_tl/js/move-top.js",
+		"/D/桌面/cpts_486_tl/js/jquery.chocolat.js",
+		"/D/桌面/cpts_486_tl/js/easing.js",
+		"/T/Steam/skins/Threshold/resource/styles/settings.styles",
+		"/T/Steam/skins/Threshold/resource/styles/gameoverlay.styles",
+		"/T/Steam/skins/Threshold/README.md",
+		"/D/作业/前端学习/hw&lesson/阶段05_angular/03-自定义指令-组件/js/myNav.js",
+		"/D/作业/前端学习/hw&lesson/阶段05_angular/03-自定义指令-组件/js/index.js",
+		"/D/作业/前端学习/hw&lesson/阶段05_angular/02-电话本/js/angular.js",
+		"/D/作业/前端学习/hw&lesson/阶段03_jq/jQ-test-pre-购物车/1.html",
+		"/D/作业/前端学习/hw&lesson/阶段03_jq/jQ-test-pre-购物车/js/main.js",
+		"/E/20161130/eg8.html",
+		"/E/20161130/eg9.html",
+		"/D/作业/前端学习/框架&库/AngularJS/angular-1.6.0-rc.2/docs/index.html",
+		"/D/作业/前端学习/test&learn/test.html",
+		"/D/作业/前端学习/框架&库/AngularJS/angular-1.5.8/angular.js",
+		"/D/作业/前端学习/test&learn/personal project/aji message board/v1.3/js/init.js",
+		"/D/作业/前端学习/test&learn/personal project/aji message board/v1.3/index.html",
+		"/D/作业/前端学习/框架&库/AngularJS/angular-1.5.8/i18n/angular-locale_zh-cn.js",
+		"/D/作业/前端学习/框架&库/JQuery/jquery-3.1.1.js",
+		"/D/作业/前端学习/hw&lesson/阶段02_js/javascript08/03.html",
+		"/D/作业/前端学习/hw&lesson/阶段02_js/javascript09/01.html",
+		"/D/作业/前端学习/hw&lesson/阶段02_js/javascript09/02.html",
+		"/D/作业/前端学习/test&learn/3阶段/bootstrap-1/1.html",
+		"/D/桌面/20161128/eg3.html",
+		"/D/作业/前端学习/test&learn/personal project/aji message board/v1.3/js/animate.js",
+		"/D/作业/前端学习/test&learn/personal project/aji message board/v1.3/js/index-main.js"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\t\t\n",
+			"imagechar",
+			"__toString",
+			"outputImgc",
+			"__toString",
+			"$_SESSION['code']",
+			"data-wysihtml5-dialog-action",
+			"src",
+			"save",
+			"callbackWrapper",
+			"data-wysihtml5-dialog-action=save",
+			"vue",
+			"lastSlideButton",
+			"stuff.reply.LID",
+			"\t\t\n",
+			"200",
+			"114",
+			"pageButtonInit",
+			"session",
+			"local",
+			"session",
+			"local",
+			"$",
+			"$(selector)",
+			"            \n",
+			"    \n",
+			"]\\{",
+			"buttonChange",
+			"“",
+			"node",
+			"function",
+			"path",
+			"highlight",
+			"underline",
+			"1920",
+			"work01",
+			"<option>ccc</option>",
+			">\n",
+			"\t\t\t\t\n",
+			"exclamatory",
+			"!",
+			"\"!\"",
+			"!",
+			"javascript",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"local",
+			"session",
+			"local",
+			"session",
+			"labelSelectorButtonChange",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 132.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 223.0
+	},
+	"pinned_build_system": "",
+	"project": "ajichat.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\ehomesprite\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\SublimeLinter.sublime-settings"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"T:\\XAMPP\\htdocs\\myHtml\\php\\php.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

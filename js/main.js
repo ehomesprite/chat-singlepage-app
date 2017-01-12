@@ -5,25 +5,29 @@ var mainVm = new Vue({
 	},
 	methods:{
 		send:function () {
-			socket.emit('chat message',$("#sendText").val());
+			socket.emit('message',$("#sendText").val());
+			var msgPack = {
+				msg:$("#sendText").val(),
+				self:true,
+				uid:setting.userID,
+			}
+			this.msg.push(msgPack);
 		}
 	}
 });
 
 var socket = io(setting.socketUrl);
-socket.on('chat message', function(msg){
-	mainVm.msg.push(msg);
+socket.on('chat message', function(msgPack){
+	msgPack.self = false;
+	mainVm.msg.push(msgPack);
 });
 
-var headerVm = new Vue({
-	el: "header",
-	data:{
-
-	},
-	methods:{
-		loginCallout:function(){
-
-		}
+$.ajax({
+	type:'post',
+	url:setting.tokenUrl,
+	async:true,
+	success:function(data){
+		setting.userID = data.uid;//这边在传token的时候也顺手吧uid传过来吧  省事
+		socket.emit('signIn',data.token);
 	}
 });
-

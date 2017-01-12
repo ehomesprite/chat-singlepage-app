@@ -57,12 +57,15 @@
 						</div>
 						<div class="panel-body box">
 							<div class="wrap">
-								<div class="message" v-for="obj in msg" v-cloak>
+								<div class="message" :class="{myMessage:obj.self}" v-for="obj in msg" v-cloak>
 									<div class="messageUserLogo">
 										<img src="" alt="logo" />
 									</div>
 									<div class="messageText bg-primary">
-										{{obj}}
+										{{obj.msg}}
+									</div>
+									<div class="messageUserID">
+										{{obj.uid}}
 									</div>
 								</div>
 							</div>
@@ -94,44 +97,6 @@
 			<p class="text-center"> snowchat with boostrap & vue.  Copyright &copy; 2017 by ehomesprite(snowdrop) & Lidy. All Rights Reserved. </p>
 		</div>
 	</footer>
-
-	<!--modal-->
-	
-		<!--loginModal-->
-		<div class="modal fade" id="loginModal" data-backdrop="static" role="dialog" aria-labelledby="loginModal-title" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="loginModal-title">登陆</h4>
-					</div>
-					<div class="modal-body">
-						
-					</div>
-					<div class="modal-footer">
-						<button class="btn btn-primary">登陆</button>
-						<button class="btn btn-default" data-dismiss="modal">取消</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<!--signinModal-->
-		<div class="modal fade" id="signinModal" data-backdrop="static" role="dialog" aria-labelledby="signinModal-title" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="signinModal-title">注册</h4>
-					</div>
-					<div class="modal-body"></div>
-					<div class="modal-footer">
-						<button class="btn btn-primary">注册</button>
-						<button class="btn btn-default" data-dismiss="modal">取消</button>
-					</div>
-				</div>
-			</div>
-		</div>
 
 <!--My js-->
 <script src="lib/custom scroll/jquery.mCustomScrollbar.js"></script>
