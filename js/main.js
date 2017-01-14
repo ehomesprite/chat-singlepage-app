@@ -8,8 +8,7 @@ var mainVm = new Vue({
 			socket.emit('message',$("#sendText").val());
 			var msgPack = {
 				msg:$("#sendText").val(),
-				self:true,
-				uid:setting.userID,
+				self:true
 			}
 			this.msg.push(msgPack);
 		}
@@ -17,7 +16,7 @@ var mainVm = new Vue({
 });
 
 var socket = io(setting.socketUrl);
-socket.on('chat message', function(msgPack){
+socket.on('message', function(msgPack){
 	msgPack.self = false;
 	mainVm.msg.push(msgPack);
 });
