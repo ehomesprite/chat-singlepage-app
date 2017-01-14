@@ -19,6 +19,7 @@ var mainVm = new Vue({
 			}
 			this.msg.push(msgPack);
 			event.target.value = "";
+			console.log(event.target);
 		}
 	}
 });
@@ -29,9 +30,9 @@ socket.on('message', function(msgPack){
 	mainVm.msg.push(msgPack);
 });
 socket.on('userList', function(userlist){
-	for(var i in userlist){
-		userlist[i] = JSON.parse(userlist[i]);
-	}
+//	for(var i in userlist){
+//		userlist[i] = JSON.parse(userlist[i]);
+//	}
 	mainVm.userlist = userlist;
 	console.log(userlist);
 });
