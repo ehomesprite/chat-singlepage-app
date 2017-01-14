@@ -28,8 +28,8 @@ socket.on('message', function(msgPack){
 	mainVm.msg.push(msgPack);
 });
 socket.on('userList', function(userlist){
-	//mainVm.userlist = userlist;
-	console.log(userlist);
+	mainVm.userlist = userlist;
+	//console.log(userlist);
 });
 
 
@@ -40,7 +40,7 @@ $.ajax({
 	success:function(data){
 		if(data.error == undefined){
 			setting.userID = data.uid;//这边在传token的时候也顺手吧uid传过来吧  省事
-			setting.userName = data.username;
+			setting.username = data.username;
 			socket.emit('signIn',data.token);			
 		}else if (data.error == 100){
 			location.href = "login.html";
