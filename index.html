@@ -25,7 +25,7 @@
 </head>
 <body>
 	<!--header-->
-	<header>
+	<header id="header">
 		<nav class="navbar" role="navigation">
 			<div class="container">
 				
@@ -37,7 +37,7 @@
 				</div>
 				
 				<div class="nav navbar-right">
-					hello xxxx
+					hello {{username}}
 				</div>
 				
 			</div>
@@ -80,10 +80,15 @@
 				</div>
 				
 				<!--online user-->
-				<div class="col-sm-4" v-for="obj in msg" v-cloak>
-					<section class="onlineUser panel hidden-xs">
+				<div class="col-sm-4">
+					<section class="onlineUserList panel hidden-xs">
 						<div class="panel-heading">
 							在线用户
+						</div>
+						<div class="panel-body">
+							<p class="onlineUser" v-cloak v-for="obj in userlist">
+								
+							</p>
 						</div>
 					</section>
 				</div>
