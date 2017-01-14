@@ -1,5 +1,5 @@
 setting={
 	socketUrl : "",
-	tokenUrl : "",
+	tokenUrl : "/apis/snowchat/token",
 	userID: "test",
 };

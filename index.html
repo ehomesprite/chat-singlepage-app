@@ -64,8 +64,8 @@
 									<div class="messageText bg-primary">
 										{{obj.msg}}
 									</div>
-									<div class="messageUserID">
-										{{obj.uid}}
+									<div class="messageUserName">
+										{{obj.username}}
 									</div>
 								</div>
 							</div>
@@ -80,7 +80,7 @@
 				</div>
 				
 				<!--online user-->
-				<div class="col-sm-4">
+				<div class="col-sm-4" v-for="obj in msg" v-cloak>
 					<section class="onlineUser panel hidden-xs">
 						<div class="panel-heading">
 							在线用户
