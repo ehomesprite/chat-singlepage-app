@@ -38,12 +38,14 @@ $.ajax({
 	url:setting.tokenUrl,
 	async:true,
 	success:function(data){
-		if(data.error == 100){
-			location.href = "login.html";
-		}else{
+		if(data.error == undefined){
 			setting.userID = data.uid;//这边在传token的时候也顺手吧uid传过来吧  省事
 			setting.userName = data.username;
-			socket.emit('signIn',data.token);
+			socket.emit('signIn',data.token);			
+		}else if (data.error == 100){
+			location.href = "login.html";
+		}else{
+			location.href = "login.html";			
 		}
 	}
 });
