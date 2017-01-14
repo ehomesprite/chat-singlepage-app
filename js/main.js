@@ -10,7 +10,7 @@ var mainVm = new Vue({
 		userlist:[],
 	},
 	methods:{
-		send:function () {
+		send:function (event) {
 			socket.emit('message',$("#sendText").val());
 			var msgPack = {
 				msg:$("#sendText").val(),
@@ -18,6 +18,7 @@ var mainVm = new Vue({
 				username:setting.username,
 			}
 			this.msg.push(msgPack);
+			event.target.value = "";
 		}
 	}
 });
@@ -28,8 +29,11 @@ socket.on('message', function(msgPack){
 	mainVm.msg.push(msgPack);
 });
 socket.on('userList', function(userlist){
+	for(var i in userlist){
+		userlist[i] = JSON.parse(userlist[i]);
+	}
 	mainVm.userlist = userlist;
-	//console.log(userlist);
+	console.log(userlist);
 });
 
 
@@ -43,9 +47,12 @@ $.ajax({
 			setting.username = data.username;
 			socket.emit('signIn',data.token);			
 		}else if (data.error == 100){
-			location.href = "login.html";
+			location.href = "../users/login";
 		}else{
-			location.href = "login.html";			
+			location.href = "../users/login";			
 		}
+	},
+	error:function(){
+		location.href = "../users/login";
 	}
 });
