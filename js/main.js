@@ -11,7 +11,7 @@ var mainVm = new Vue({
 	},
 	methods:{
 		send:function (event) {
-			if($("#sendText").val().match(/^\/\w+/img) == -1){
+			if($("#sendText").val().search(/^\/\w+/img) == -1){
 				socket.emit('message',$("#sendText").val());
 				var msgPack = {
 					msg:$("#sendText").val(),
