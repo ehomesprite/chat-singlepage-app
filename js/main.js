@@ -11,13 +11,17 @@ var mainVm = new Vue({
 	},
 	methods:{
 		send:function (event) {
-			socket.emit('message',$("#sendText").val());
-			var msgPack = {
-				msg:$("#sendText").val(),
-				self:true,
-				username:setting.username,
+			if($("#sendText").val().match(/^\/\w+/img) == -1){
+				socket.emit('message',$("#sendText").val());
+				var msgPack = {
+					msg:$("#sendText").val(),
+					self:true,
+					username:setting.username,
+				}
+				this.msg.push(msgPack);
+			}else{
+				socket.emit('console',$("#sendText").val().slice(1));
 			}
-			this.msg.push(msgPack);
 			$("#sendText").val("");
 		}
 	}
@@ -25,9 +29,13 @@ var mainVm = new Vue({
 
 var socket = io(setting.socketUrl);
 socket.on('message', function(msgPack){
-	msgPack.self = false;
+	//msgPack.self = false;
 	mainVm.msg.push(msgPack);
 });
+socket.on('console',function(msgPack){
+	msgPack.isConsole = true;
+	mainVm.msg.push(msgPack);
+})
 socket.on('userList', function(userlist){
 	userlist = JSON.parse(userlist);
 	console.log(userlist);
@@ -43,11 +51,11 @@ $.ajax({
 		if(data.error == undefined){
 			setting.userID = data.uid;//这边在传token的时候也顺手吧uid传过来吧  省事
 			setting.username = data.username;
-			socket.emit('signIn',data.token);			
+			socket.emit('signIn',data.token);
 		}else if (data.error == 100){
 			location.href = "../users/login";
 		}else{
-			location.href = "../users/login";			
+			location.href = "../users/login";
 		}
 	},
 	error:function(){

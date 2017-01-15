@@ -57,7 +57,7 @@
 						</div>
 						<div class="panel-body box">
 							<div class="wrap">
-								<div class="message" :class="{myMessage:obj.self}" v-for="obj in msg" v-cloak>
+								<div class="message" :class="{myMessage:obj.self,console:obj.isConsole}" v-for="obj in msg" v-cloak>
 									<div class="messageUserLogo">
 										<img src="" alt="logo" />
 									</div>
