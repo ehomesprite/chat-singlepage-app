@@ -1,6 +1,5 @@
 setting={
-	socketUrl : "http://45.76.220.134:3000/",
-	socketUrl : "",
+	socketUrl : "/snowchat",
 	tokenUrl : "/apis/snowchat/token",
 	username : "test",
 };
