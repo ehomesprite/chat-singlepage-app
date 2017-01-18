@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"class",
+				"hasClass\tjQuery"
+			],
+			[
+				"emoji",
+				"emojiList\tmain.js"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
 				"message",
 				"messageText"
 			],
@@ -82,10 +94,6 @@
 			[
 				"a",
 				"array\t$… = array (…)"
-			],
-			[
-				"class",
-				"class\tclass …"
 			],
 			[
 				"res",
@@ -506,14 +514,6 @@
 			[
 				"whit",
 				"white-space"
-			],
-			[
-				"w",
-				"width"
-			],
-			[
-				"wra",
-				"flex-wrap;\tProperty"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "style.less",
 			"settings":
 			{
-				"buffer_size": 3602,
+				"buffer_size": 4937,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -532,7 +532,7 @@
 			"file": "/F/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app/js/main.js",
 			"settings":
 			{
-				"buffer_size": 1317,
+				"buffer_size": 2623,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,7 +541,7 @@
 			"file": "/F/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app/js/setting.js",
 			"settings":
 			{
-				"buffer_size": 128,
+				"buffer_size": 130,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -637,6 +637,8 @@
 	],
 	"file_history":
 	[
+		"/F/！资料/后端/Blossom-hellfire-mixer/routes/apis_snowchat.js",
+		"/G/mabinogi/tw/3.客户端/落英客户端 skmay/mabinogi.exe",
 		"/F/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app/css/style.css",
 		"/F/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app/css/style.less",
 		"/F/！资料/前端/personal project/chat singlePage app (b&v)/chat-singlepage-app/js/setting.js",
@@ -762,9 +764,7 @@
 		"/D/作业/前端学习/hw&lesson/阶段02_js/javascript08/03.html",
 		"/D/作业/前端学习/hw&lesson/阶段02_js/javascript09/01.html",
 		"/D/作业/前端学习/hw&lesson/阶段02_js/javascript09/02.html",
-		"/D/作业/前端学习/test&learn/3阶段/bootstrap-1/1.html",
-		"/D/桌面/20161128/eg3.html",
-		"/D/作业/前端学习/test&learn/personal project/aji message board/v1.3/js/animate.js"
+		"/D/作业/前端学习/test&learn/3阶段/bootstrap-1/1.html"
 	],
 	"find":
 	{
@@ -783,6 +783,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".box",
+			"box",
 			"\t\t\n",
 			"imagechar",
 			"__toString",
@@ -851,7 +853,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -860,15 +862,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3602,
+						"buffer_size": 4937,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2376,
-								2376
+								1320,
+								1320
 							]
 						],
 						"settings":
@@ -880,8 +882,8 @@
 								{
 									"1":
 									[
-										2675,
-										2676
+										4480,
+										4481
 									]
 								},
 								"icon":
@@ -896,8 +898,8 @@
 								{
 									"1":
 									[
-										2341,
-										2342
+										1304,
+										1305
 									]
 								},
 								"unmatched":
@@ -911,21 +913,16 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -936,38 +933,43 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2970.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -979,15 +981,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1317,
+						"buffer_size": 2623,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								227,
-								227
+								2554,
+								2554
 							]
 						],
 						"settings":
@@ -999,8 +1001,8 @@
 								{
 									"1":
 									[
-										413,
-										414
+										2557,
+										2558
 									]
 								},
 								"icon":
@@ -1015,8 +1017,8 @@
 								{
 									"1":
 									[
-										226,
-										227
+										2520,
+										2521
 									]
 								},
 								"unmatched":
@@ -1025,6 +1027,21 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1035,60 +1052,45 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 198.0,
+						"translation.y": 1848.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1097,15 +1099,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 128,
+						"buffer_size": 130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
+								127,
+								127
 							]
 						],
 						"settings":
@@ -1115,12 +1117,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										128,
+										129
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.curly"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										8,
+										9
+									]
 								},
 								"unmatched":
 								{
@@ -1133,21 +1150,16 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1158,31 +1170,36 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage"
 						},
@@ -1190,7 +1207,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1288,7 +1305,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":

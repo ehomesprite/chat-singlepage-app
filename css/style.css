@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 * textarea {
   resize: none;
 }
@@ -54,7 +57,7 @@ footer p {
   margin: 0;
 }
 #main {
-  height: 815px;
+  height: 830px;
 }
 #main .chatWindow {
   height: 550px;
@@ -81,9 +84,13 @@ footer p {
   height: 60px;
 }
 #main .chatWindow .message .messageText {
-  padding: 20px 5px;
+  padding: 10px 5px;
   border-radius: 15px;
   margin: 0 10px;
+}
+#main .chatWindow .message .messageText .emoji {
+  max-width: 50px;
+  max-height: 50px;
 }
 #main .chatWindow .message .messageUserName {
   position: absolute;
@@ -112,8 +119,46 @@ footer p {
 }
 #main .inputWindow {
   margin-top: 20px;
-  height: 210px;
-  padding: 20px;
+  padding: 20px 20px 50px 20px;
+}
+#main .inputWindow .toolbar {
+  height: 30px;
+  margin-bottom: 5px;
+  position: relative;
+}
+#main .inputWindow .toolbar .btn {
+  line-height: 30px;
+  border: 0px;
+  padding: 0 12px;
+  height: 30px;
+  background: #ccc;
+  border-radius: 0;
+  color: #222;
+}
+#main .inputWindow .toolbar .toolSubContent {
+  min-height: 80px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 35px;
+  background: #fff;
+  box-shadow: 0 0 5px 1px #ccc;
+  padding: 20px 5px;
+}
+#main .inputWindow .toolbar .emojiList .tab-content {
+  padding: 10px 0;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+#main .inputWindow .toolbar .emojiList .col-custom {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 5px 15px;
+}
+#main .inputWindow .toolbar .emojiList .img-responsive {
+  width: 40px;
+  height: 40px;
 }
 #main .inputWindow textarea {
   width: 100%;

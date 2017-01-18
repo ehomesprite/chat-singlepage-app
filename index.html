@@ -74,6 +74,25 @@
 					
 					<!--input-->
 					<section class="inputWindow panel">
+						<div class="toolbar">
+							<a href="javascript:void(0)" class="btn" @click="emojiListTrigger">表情</a>
+							<div class="toolSubContent emojiList" v-show="emojiListShow">
+								<div class="container-fluid">
+									<ul class="nav nav-tabs" role="tablist">
+										<li role="presentation" v-for="obj in emojiList"><a :href="'#'+obj.category" role="tab" data-toggle="tab">{{obj.category}}</a></li>
+									</ul>
+									<div class="tab-content">
+										<div class="tab-pane active container-fluid" role="tabpanel" :id="obj.category" v-for="obj in emojiList">
+											<div class="row">
+												<div class="col-custom" v-for="emoji in obj.emoji">
+													<a href="javascript:void(0)" :title="emoji.desc" @click="emojiInsert(obj.category,emoji.name)"><img :src="'img/'+obj.category+'/'+emoji.name+'.png'" alt="emoji" class="img-responsive"/></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 						<textarea id="sendText"></textarea>
 						<button class="btn  btn-primary pull-right" v-on:click="send">发送</button>
 					</section>
